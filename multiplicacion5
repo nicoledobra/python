@@ -4,3 +4,11 @@ def  firstMultFive():
         print i*5
         i+=1
 firstMultFive()
+
+
+def  firstMultFive():
+    for m in range (1, 100):
+        for i in range(1, 11):
+            result = i*m
+            print (("%d x %d = %d")%(m, i, result))
+firstMultFive()
