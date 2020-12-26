@@ -1,0 +1,8 @@
+def result(s):
+    if int(s)==float(s):
+        result2=s
+        print result2
+    else:
+        result3=s
+        print result3
+result(31)
