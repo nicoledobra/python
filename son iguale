@@ -6,3 +6,9 @@ def result(s):
         result3=s
         print result3
 result(31)
+
+def result(s):
+    float(s)==int(s)
+    result=int(s)
+    print result
+result(5.54)
