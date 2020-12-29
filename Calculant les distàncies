@@ -1,0 +1,4 @@
+def distance(n, m):
+    rest=n-m
+    print abs(rest)
+distance(10, 2)
