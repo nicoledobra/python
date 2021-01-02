@@ -1,0 +1,7 @@
+def add(s):
+    l=[]
+    for letter in s:
+        letter=letter+"w"
+        l=l+[letter]
+    print l,
+add([])
