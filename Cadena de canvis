@@ -1,0 +1,4 @@
+def maxFloatList(s):
+    l=s.replace("a", "hello")
+    print l
+maxFloatList("arack attack")
