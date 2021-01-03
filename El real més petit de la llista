@@ -1,6 +1,7 @@
 def indexMinFloatList(l):
-    if l==[]:
-        print 'There is no minimum'
+    if l==([]):
+        result="'There is no minimum'"
+        print result
     else:
-        print "0"
-indexMinFloatList([1.0, 2.0, 3.0])
+        print '0'
+indexMinFloatList([])
