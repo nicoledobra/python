@@ -1,4 +1,4 @@
 def change(s):
     l=s.replace("a", "hello")
-    print l
+    print "'"+l+"'"
 change("arack attack")
