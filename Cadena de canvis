@@ -1,4 +1,4 @@
-def maxFloatList(s):
+def change(s):
     l=s.replace("a", "hello")
     print l
-maxFloatList("arack attack")
+change("arack attack")
