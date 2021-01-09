@@ -1,0 +1,7 @@
+def maxFloatList(l):
+    if l==([]):
+        result="'There is no maximum'"
+        print result
+    else:
+        print max(l)
+maxFloatList([3, 4.5, 1])
