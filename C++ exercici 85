@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+unsigned int multiply(unsigned int a, unisgned int b);
+int main(){
+  int a, b;
+  cin >> a >> b;
+  cout << multiply(a, b);
+  return 0; }
+unsigned int multiply(unsigned int a, unsigned int b){
+  if(b == 0){
+    return 0;}
+  else{
+    return a + multiply(a, b - 1);
+  } } }
