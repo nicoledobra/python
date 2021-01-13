@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-unsigned int multiply(unsigned int a, unisgned int b);
+unsigned int multiply(unsigned int a, unsigned int b);
 int main(){
   int a, b;
   cin >> a >> b;
@@ -11,4 +11,4 @@ unsigned int multiply(unsigned int a, unsigned int b){
     return 0;}
   else{
     return a + multiply(a, b - 1);
-  } } }
+  } }
