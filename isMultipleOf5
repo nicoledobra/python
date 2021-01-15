@@ -1,0 +1,6 @@
+def isMultipleOf5(n):
+    if n%5==0:
+        print True
+    else:
+        print False
+isMultipleOf5(5)
