@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main(){
+int num = 872270004;
+while (num>=10){
+printf("%d", num % 10);
+num /= 10;}
+    printf("%d" , num);
+}
