@@ -1,0 +1,6 @@
+def isANumber(s):
+    for u in s:
+        if u not in "0123456789":
+            return False
+    return True
+print isANumber("123")
