@@ -1,3 +1,4 @@
 def toLowerCase2(s):
-    print s.lower()
-toLowerCase2("REREEDSF")
+    m=s.lower()
+    print "'"+m+"'"
+toLowerCase2("uyityttf")
