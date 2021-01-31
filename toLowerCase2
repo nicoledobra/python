@@ -1,0 +1,3 @@
+def toLowerCase2(s):
+    print s.lower()
+toLowerCase2("REREEDSF")
