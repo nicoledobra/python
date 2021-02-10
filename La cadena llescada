@@ -1,0 +1,8 @@
+def initialSlice(s,n):
+    if n>= len(s):
+        return s
+    elif n==0:
+        return ""
+    else:
+        return s[0:n]
+print initialSlice("hello", 3)
