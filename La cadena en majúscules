@@ -1,0 +1,4 @@
+def toUpperCase2(s):
+    m=s.upper()
+    print "'"+m+"'"
+toUpperCase2("uyityttf")
