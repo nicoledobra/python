@@ -1,4 +1,4 @@
 def deleteDigits(s):
     palabra = ''.join(char for char in s if not char.isdigit())
-    print palabra
-deleteDigits("'1as23'")
+    print "'" + palabra + "'"
+deleteDigits("1as23")
