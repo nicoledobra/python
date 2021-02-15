@@ -1,0 +1,13 @@
+def changeLetter(s):
+    i=0
+    u=""
+    while i<len(s):
+        if s[i]=="a":
+            u=u+"A"
+        else:
+            u=u+s[i]
+        i=i+1
+    return u
+print changeLetter("banana")
+
+R:bAnAnA
