@@ -1,0 +1,9 @@
+def countLetters(s, c):
+    i=0
+    for a in s:
+        if a==c:
+            i=i+1
+    return i
+print countLetters("hello", "e")
+
+R: 1
