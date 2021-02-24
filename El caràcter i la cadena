@@ -1,0 +1,14 @@
+def sliceUpToChar(s, c):
+    i=""
+    if c not in s:
+        return i
+    else:
+        for a in s:
+            if a!=c:
+                i=i+a
+            else:
+                i=i+a
+                return i
+print sliceUpToChar("hello", "l")
+
+R: hel
