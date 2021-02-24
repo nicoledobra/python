@@ -1,0 +1,5 @@
+def getUpperCase():
+    return "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+print getUpperCase()
+
+R: ABCDEFGHIJKLMNOPQRSTUVWXYZ
