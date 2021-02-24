@@ -1,0 +1,9 @@
+def filter(l):
+    i=[]
+    for a in l:
+        if a>0:
+            i.append(a)
+    return i
+print filter([])
+
+R: []
