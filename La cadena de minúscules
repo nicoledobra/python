@@ -1,0 +1,5 @@
+def getLowerCase():
+    return "abcdefghijklmnopqrstuvwxyz"
+print getLowerCase()
+
+R: abcdefghijklmnopqrstuvwxyz
