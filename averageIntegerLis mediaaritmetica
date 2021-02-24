@@ -1,0 +1,17 @@
+def averageIntegerList(s):
+    n=len(s)
+    a=n/2
+    if len(s)>1:
+        if len(s)%2==0:
+            
+            media=(s[a+1] + s[a]) / 2
+            print float(media)
+        else:
+            media=s[a]*1.0
+            print float(media)
+    elif len(s)==1:
+        print "1.0"
+    else:
+        print "0.0"
+    
+averageIntegerList([1,2,3,4,5])
