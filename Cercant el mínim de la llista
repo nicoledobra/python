@@ -1,0 +1,8 @@
+def minFloatList(s):
+    if len(s)==0:
+        print "'There is no minimum'"
+    elif len(s)==1.0:
+        print "1.0"
+    else:
+        print min(s)
+minFloatList([1.0, 2.0, 4.0])
