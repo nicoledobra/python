@@ -1,4 +1,4 @@
 result=[1, 10, 2, 20, 3, 30]
 result[0]=[1, 2, 3]
-result[5]=[True]
+result[5]=True
 print result
