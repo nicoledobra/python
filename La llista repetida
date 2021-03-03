@@ -1,0 +1,8 @@
+def repeatStrings(l):
+    i=[]
+    for u in l:
+        i=i+[u*len(u)]
+    return i
+print repeatStrings(["hello"])
+
+R=['hellohellohellohellohello']
