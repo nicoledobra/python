@@ -1,0 +1,10 @@
+def lines2(l):
+    i=0
+    u={}
+    for x in l:
+        u["phrase"+str(i)]=x
+    	i=i+1
+    return  u
+print lines2(["hello", "how", "are", "you"])
+
+R:{'phrase0': 'hello', 'phrase1': 'how', 'phrase2': 'are', 'phrase3': 'you'}
