@@ -1,0 +1,8 @@
+def toString(l):
+    i=""
+    for u in l:
+        i=i+str(u)
+    return i
+print toString([1, 2, 3])
+
+R:123
