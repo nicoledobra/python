@@ -4,7 +4,7 @@ def search(d, n):
     i=d.values()
     for u in i:
         if n==u:
-            return Ture
+            return True
     return False
 print search({}, 3)    
 
@@ -15,7 +15,7 @@ def search(d, n):
     i=d.values()
     for u in i:
         if n==u:
-            return Ture
+            return True
     return False
 print search({"one": 1, "two": 2, "three": 3}, 3)
 
