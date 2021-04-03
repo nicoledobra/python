@@ -1,0 +1,7 @@
+def search2(d, n):
+    i=d.values()
+    for u in i:
+        if n==len(d):
+            return True
+    return False
+print search2({}, 3)
