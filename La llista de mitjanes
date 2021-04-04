@@ -1,7 +1,6 @@
 def averagesList(d):
-    
+    result=[]
     for u in d:
-        if u<=len(d):
-            u=sum(d)/len(d)
-            return u
-print averagesList([1,-9,6])
+      result = result + [sum(u)/len(u)]
+    return result
+print averagesList([[3,-2,6],[2],[4,12],[7,8,9,10,93]])
