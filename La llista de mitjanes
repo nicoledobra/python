@@ -1,1 +1,7 @@
-
+def averagesList(d):
+    
+    for u in d:
+        if u<=len(d):
+            u=sum(d)/len(d)
+            return u
+print averagesList([1,-9,6])
