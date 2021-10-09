@@ -1,10 +1,21 @@
-A.
+A. si hay egualda entre un numero entero y una cadena
 result = (3=="3")
 print result
 
 
 B.
 if int(3)==str(3):
+    result =True
+else:
+    result = False
+print result
+
+C. si hay egualdad entre un numero entero y uno real
+result=(3==3.0)
+print result
+
+D. 
+if int(3)==3.0:
     result =True
 else:
     result = False
