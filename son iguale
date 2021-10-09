@@ -1,3 +1,16 @@
+A.
+result = (3=="3")
+print result
+
+
+B.
+if int(3)==str(3):
+    result =True
+else:
+    result = False
+print result
+
+C.
 def result(s):
     if int(s)==float(s):
         result2=s
@@ -7,6 +20,7 @@ def result(s):
         print result3
 result(31)
 
+D.
 def result(s):
     float(s)==int(s)
     result=int(s)
