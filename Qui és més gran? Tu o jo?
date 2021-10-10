@@ -1,0 +1,12 @@
+A.
+def findMax(a, b):
+    print max(a, b)
+findMax(123, 234)
+
+B.
+def findMax(a, b):
+    if a<b:
+      print b
+    else:
+      print a
+findMax(123, 234)
