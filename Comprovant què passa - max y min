@@ -1,0 +1,6 @@
+def check(a, b, c):
+    if (max(a, b, c)==a) and (min(a, b, c)==b):
+        print True
+    else:
+        print False
+check(3, 2, 3)
