@@ -1,6 +1,6 @@
 def operations(s, t):
     if len(s)>=len(t):
-        print s + t
+        print "'"+ s + t + "'"
     else:
-        print (t*len(t))
+        print "'" + (t*len(t))+ "'"
 operations("a", "bye")
