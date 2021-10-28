@@ -1,0 +1,4 @@
+def tour(s):
+    for c in s:
+        print c
+tour("hello")
