@@ -1,0 +1,8 @@
+def segment(s, n, m):
+    if s is "":
+        return "Segment can not be done"
+    elif n<m:
+        return s[n:m]
+    else:
+        return "Segment can not be done"
+print segment("", 0, 2)
