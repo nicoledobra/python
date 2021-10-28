@@ -1,0 +1,4 @@
+def tour3(s, n):
+    for c in s:
+        print c*n
+tour3("hello", 6)
