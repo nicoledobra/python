@@ -1,0 +1,9 @@
+text = "today is a sunny day"                                                  
+length = len(text)                               
+print length				                                          
+print text[:2]	                                        
+print text[length]
+
+R:20
+  to
+  error
