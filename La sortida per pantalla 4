@@ -1,0 +1,3 @@
+s = "unknown"                                                        
+for c in s:                                                          
+    print c * len(s)
