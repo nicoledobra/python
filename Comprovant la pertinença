@@ -1,0 +1,6 @@
+def verify(s):
+    if "a" in s:
+        return True
+    else:
+        return False
+print verify("helloa")
