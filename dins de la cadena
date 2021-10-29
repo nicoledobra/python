@@ -1,0 +1,5 @@
+def isThere(s, n):
+    if n < len(s):
+        return True
+    return False
+print isThere("hello", -1)
