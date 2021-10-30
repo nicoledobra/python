@@ -1,0 +1,6 @@
+def verify3(s, c):
+    if c not in s:
+        return True
+    else:
+        return False
+print verify3("hello", "a")
