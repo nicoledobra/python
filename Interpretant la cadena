@@ -1,0 +1,25 @@
+text = "merry mary"
+
+                                                            
+'m' in text
+
+                                                            
+text.count('m')	
+
+                                                            
+text.endswith('ita')	
+
+                                                            
+“s” not in text
+
+                                                            
+text.replace (‘m’, ‘n’)
+
+                                                            
+“n” in text
+
+R: True
+   2
+   False
+   True
+   True
