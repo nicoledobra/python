@@ -4,3 +4,15 @@ def isANumber(s):
             return False
     return True
 print isANumber("123")
+
+
+def isANumber(s):
+    if len(s)==0:
+        return False
+    
+    else:
+        if s in "1234567890":
+            return True
+        else:
+            return False
+print isANumber("ab")
