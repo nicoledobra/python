@@ -7,3 +7,11 @@ def isUpper(s):
     else:
         return False
 print isUpper("n")
+
+def isUpper(s):
+   for u in s:
+        if u in "ABCDEFGHIJKLMNOPQRSTUVWVXYZ":
+            return True
+        else:
+            return False
+print isUpper("a")
