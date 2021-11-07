@@ -1,0 +1,14 @@
+found = False                                        
+s = "it is extremely easy"
+i = 0
+while i < len(s) and not found:
+    if s[i] == 'x':
+        found = True
+    else:
+        i = i + 1
+if found:
+    print s[6:15]
+else:
+    print s[6:12]
+
+R: extremly
