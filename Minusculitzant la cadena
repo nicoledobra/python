@@ -1,0 +1,15 @@
+import string
+def toLowerCase2(s):
+    if s in string.lowercase:
+        print s
+    else:
+        print s.lower()
+toLowerCase2('HelLa')
+
+
+def toLowerCase2(s):
+    if s in "abcedefghijklmnopqrstuvwxyz":
+        return s
+    else:
+        return s.lower()
+print toLowerCase2('HelLa')
