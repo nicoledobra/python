@@ -1,0 +1,8 @@
+def isVowel(s):
+        if s in "aeiou":
+            return "It is a lowercase vowel"
+        elif s in "AEIOU":
+            return "It is an uppercase vowel"
+        else:
+            return "It is not a vowel"
+print isVowel("23")
