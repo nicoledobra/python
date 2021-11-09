@@ -1,0 +1,12 @@
+s = "Python is easier than it seems"
+result = ""
+for letter in s:
+    if letter == 'e':
+        result += 'x'
+    elif letter == ' ':
+        result += '*'
+    else:
+        result += letter
+print result
+
+R: Python*is*xasixr*than*it*sxxms
