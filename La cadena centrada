@@ -1,0 +1,4 @@
+def centerString(s):
+    x=s.center(20)
+    print x
+centerString("abc")
