@@ -1,0 +1,4 @@
+def encode(s):    
+    for character in s:
+        print ord(character)  
+encode("herllo")
