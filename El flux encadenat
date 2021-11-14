@@ -1,0 +1,24 @@
+def function1(x, s = "hello"):
+    for letter in s:                               
+        print letter * x                                    
+    return len(s)                                    
+x = "program"                                           
+y = function1(2, x)                                         
+if y > 4:                                         
+    print "Total length is: %d" % (function1(2))
+else:            
+    print "End of program"
+
+R: pp
+   rr
+   oo
+   gg
+   rr
+   aa
+   mm
+   hh
+   ee
+   ll
+   ll
+   oo
+   Total lenght is: 5
