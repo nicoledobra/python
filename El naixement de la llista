@@ -1,0 +1,4 @@
+result=["a", "b", "c"]
+print result
+
+R: ['a', 'b', 'c']
