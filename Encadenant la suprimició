@@ -1,0 +1,9 @@
+def deleteLowerCase(s):
+    r = ""
+    for letter in s:
+        if letter not in 'abcdefghijklmnopqrstuvwxyz':
+            r = r + letter
+    print "'"+ r +"'"
+deleteLowerCase("HheO")
+
+R: HO
