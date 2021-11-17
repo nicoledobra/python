@@ -3,3 +3,10 @@ result=len(llista)
 print result
 
 R: 6
+
+
+l=[[1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3]]
+result=len(l)
+print result
+
+R: 4
