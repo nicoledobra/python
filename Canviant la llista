@@ -1,0 +1,3 @@
+result=["m", "o", "l", "a"]
+result[0]="h"
+print result
