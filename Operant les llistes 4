@@ -1,0 +1,5 @@
+l=["h", "e", "l", "l", "o", "h", "o", "w", "a", "r", "e", "y", "o", "u"]
+result=l[2:7]
+print result
+
+R: ['l', 'l', 'o', 'h', 'o']
