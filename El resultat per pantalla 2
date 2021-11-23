@@ -1,0 +1,9 @@
+l = ["a", "b", "c", "d"]
+i = 0                                    
+while i < len(l):
+    if (i + 1) % 2 == 0:                                    
+        l[i] = 'x'                                    
+    i = i + 1                                          
+print l
+
+R: ['a', 'x', 'c', 'x']
