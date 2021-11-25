@@ -1,0 +1,7 @@
+def minIntegerList(l):
+    if l==([]):
+        result="'There is no minimum'"
+        print result
+    else:
+        print min(l)
+minIntegerList([])
