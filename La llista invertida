@@ -1,0 +1,9 @@
+def reverseList(l):
+    if len(l)==0:
+        print l
+    elif len(l)==1:
+        print l
+    else:
+        result=l[::-1]
+        print result
+reverseList(['hello', 'how', 'are', 'you'])
