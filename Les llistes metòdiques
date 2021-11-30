@@ -1,0 +1,4 @@
+result=["how", "are", "you"]
+s=" "
+result2=s.join(result)
+print result2
