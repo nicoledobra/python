@@ -1,0 +1,26 @@
+def m1(l):
+    if len(l) == 0:
+        return "Empty list"
+    else:
+        result = l[0]
+        for element in l:
+            if element > result:
+                result = element
+        return result
+
+
+def m2(l):
+    if len(l) == 0:
+        return "Empty list"
+    else:
+        result = l[0]
+        for element in l:
+            if element < result:
+                result = element
+        return result
+
+l = range(1, 21, 2)
+for element in l:
+    print element
+print m1(l)
+print m2(l)
