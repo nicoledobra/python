@@ -1,0 +1,8 @@
+def concatenateStrings(l):
+    s=''
+    if len(l)==0:
+        print "'"+s+"'"
+    else:
+        print "'"+s.join(l)+"'"
+    
+concatenateStrings(["hello", "how", "are", "you"])
