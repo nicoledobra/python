@@ -1,0 +1,13 @@
+def showInfo(s, n):
+    i=0
+    while i<n:
+        print s
+        i+=1
+showInfo("hello", 7)
+R: hello
+   hello
+   hello
+   hello
+   hello
+   hello
+   hello
