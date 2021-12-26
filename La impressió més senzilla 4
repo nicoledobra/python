@@ -1,0 +1,12 @@
+def firstNM(n, m):
+    i=0
+    while i<n:
+        print m
+        i+=1
+        m+=1
+firstNM(5, 10)
+R: 10
+   11
+   12
+   13
+   14
