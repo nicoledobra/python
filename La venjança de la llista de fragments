@@ -1,0 +1,11 @@
+def finalSlice(l):
+    i=[]
+    for wor in l:
+        if len(wor)==0:
+            i=i+[""]
+        else:
+            i=i+[wor[-1]]
+    return i
+print finalSlice(["hello", "how", "are", "you"])
+
+R: ['o', 'w', 'e', 'u']
