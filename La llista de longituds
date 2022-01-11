@@ -1,0 +1,8 @@
+def stringLengths(l):
+    i=[]
+    for wor in l:
+        i=i+[len(wor)]
+    return i
+print stringLengths(["hello", "how", "are", "you"])
+
+R: [5, 3, 3, 3]
