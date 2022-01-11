@@ -1,0 +1,10 @@
+result = []                                                       
+s = ""
+for i in range(1, 5):
+   for v in 'aeiou':
+        s = s + (v * i)
+    result += [s]
+    s = ""
+print result
+
+R: [aeiou, aaeeiioouu, aaaeeeiiiooouuu, aaaaeeeeiiiioooouuuu]
