@@ -1,0 +1,11 @@
+def slice(l):
+    i=[]
+    for wor in l:
+        if len(wor)==0:
+            i=i+[""]
+        else:
+            i=i+[wor[0]]
+    return i
+print slice(["hello", "how", "are", "you"])
+
+R: ['h', 'h', 'a', 'y']
