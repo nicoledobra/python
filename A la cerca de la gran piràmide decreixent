@@ -1,0 +1,14 @@
+def decreasingPyramid(s,n):
+    i=0
+    j=n
+    while i<n:
+        print s*j
+        i+=1
+        j=j-1
+        
+decreasingPyramid("hello", 4)
+
+R: hellohellohellohello
+hellohellohello
+hellohello
+hello
