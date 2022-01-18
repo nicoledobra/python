@@ -1,0 +1,9 @@
+def delete2(l, e):
+    i=[]
+    for m in l:
+        if m!=e:
+            i.append(m)
+    print i
+delete2(["bye", "hello", "hello"], "hello")
+
+R: ['bye']
