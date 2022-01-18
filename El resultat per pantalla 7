@@ -1,0 +1,13 @@
+l = [[['a'], ['b']], [[1], [2]], [['c'], ['d']], [[3], [4]]]
+for e in l:                                      
+    for se in e:                                      
+        for sse in se:
+            print sse * len(l)
+R: aaaa
+   bbbb
+   4
+   8
+   cccc
+   dddd
+   12
+   16
