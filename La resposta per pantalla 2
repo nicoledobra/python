@@ -1,0 +1,12 @@
+def findOut(s):                                                          
+    for c in s:                                             
+        if '0' <= c and c <= '9':                                             
+            return True                           
+    return False                                     
+d = {"hello": "abc123", "bye": "ab", "day": "ab12", "night": "abc"}                                            
+for element in d.keys():
+    if findOut(d[element]):                                    
+        del d[element]                                 
+print d
+
+R: {'night': 'abc', 'bye': 'ab'}
