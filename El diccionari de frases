@@ -1,0 +1,9 @@
+def lines1(l):
+    i={}
+    u=0
+    for m in l:
+        i[u]=m
+        u=u+1
+    return i
+print lines1(["hello", "how", "are", "you"])
+
