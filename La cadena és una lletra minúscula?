@@ -1,0 +1,7 @@
+def isLower(s):
+    letter="abcdefghijklmnopqrstuvwxyz"
+    if s in letter:
+        print True
+    else:
+        print False
+isLower("abcA")
