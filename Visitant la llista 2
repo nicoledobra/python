@@ -1,0 +1,7 @@
+l= [12, "hello", True, False, [3, 4, 5], 1, 1, 1, "bye"]
+result=l[0]
+result2=l[2]
+result3=l[7]
+print result
+print result2
+print result3
