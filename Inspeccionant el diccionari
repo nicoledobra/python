@@ -1,0 +1,7 @@
+def search2(d, n):
+    m={}
+    if m==d:
+        return False
+    else:
+        return True
+print search2({"one": [1, 2], "two": [2, 2], "three": [1, 2, 3]}, 3)
