@@ -1,0 +1,4 @@
+average= (5+7+9)/3.0
+print average
+
+R: 7.0
