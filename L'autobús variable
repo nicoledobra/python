@@ -1,0 +1,4 @@
+result=23-3+5-5+2-8+5-4
+print result
+
+R: 15
