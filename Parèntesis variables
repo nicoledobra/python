@@ -1,0 +1,4 @@
+result=6*(1-2)
+print result
+
+R: -6
