@@ -1,0 +1,7 @@
+Marti=34
+Anna=Marti+5
+Maria=Anna-8
+result=Maria*2
+print result
+
+R: 62
