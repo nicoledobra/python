@@ -1,0 +1,6 @@
+a=20+12+1+35
+b=a*0.5
+result=b*30
+print result
+
+R: 1020.0
