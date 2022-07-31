@@ -1,0 +1,5 @@
+a=100-150
+result=abs(a)
+print result
+
+R: 50
