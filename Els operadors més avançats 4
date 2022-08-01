@@ -1,0 +1,5 @@
+import math
+result=abs(100)%(math.sqrt(9))
+print result
+
+R: 1.0
