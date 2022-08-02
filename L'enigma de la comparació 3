@@ -1,0 +1,6 @@
+a=False
+b=False
+result=a and b
+print result
+
+R: False
