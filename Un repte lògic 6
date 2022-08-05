@@ -1,0 +1,6 @@
+import math
+i= (math.sqrt(144))
+result=i>10
+print result
+
+R: True
