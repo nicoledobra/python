@@ -1,0 +1,18 @@
+a) 
+import math
+x=5
+result="Bye"
+if x>(math.sqrt(144)):
+    result="Hello"
+print result
+
+b) 
+import math
+x=5
+if x>(math.sqrt(9)):
+    result="Hello"
+else:
+    result="Bye"
+print result
+
+R: Bye
