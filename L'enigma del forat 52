@@ -1,0 +1,16 @@
+x = abs(10) % 2
+if x == 0:    
+result = "Even"
+else:
+    result = "Odd"
+print result
+y = 36 ** 0.5
+if y >= 6:
+    result = "Greater or equal"
+else:
+    result = "Lesser"
+print result
+
+R: Even
+
+   Greater or equal
