@@ -1,0 +1,11 @@
+i=200%101
+x=abs(100-i)
+if x>0:
+    result="Greater"
+elif x==0:
+    result="Equal"
+else:
+    result="Smaller"
+print result  
+
+R: Greater
