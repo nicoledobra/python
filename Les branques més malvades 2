@@ -1,0 +1,10 @@
+x=(12%4)*3
+if 0 <= x <= 10:
+    print "Between 0 and 10"
+elif 11 <= x <= 20:
+    print "Between 11 and 20"
+else:
+    print "I do not know between which numbers it is"
+    
+    
+R: Between 0 and 10
