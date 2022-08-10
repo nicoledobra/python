@@ -1,0 +1,8 @@
+def multiplesN(x, n):
+    if x%n==0:
+        print True
+    else:
+        print False
+multiplesN(5, 2)
+
+R: False
