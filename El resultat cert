@@ -1,0 +1,25 @@
+def function(x, y): 
+    print x, y
+
+def function2(x): 
+   x=x+2			
+   return x ∗∗ 2
+x=2
+y=1
+print x	
+print y
+if x % 2 != 0 or x <= 0:
+    function(x, y) 
+else:				
+    y = function2(y) 
+    if y < 0:			
+        print y 
+    elif y == 9:			
+        print 2 ∗ y 
+    else:					
+        print "The value of y is:␣", y
+        
+R:
+2
+1
+18
