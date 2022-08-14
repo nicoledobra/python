@@ -1,0 +1,14 @@
+def function(x, y):                                               
+    print x, y                                                         
+x=2                                                         
+y=1                                                     
+print x                                                    
+print y                                               
+function(x, y)                                                        
+function(y, x)
+
+R:
+2
+1
+21
+12
