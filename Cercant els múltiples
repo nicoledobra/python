@@ -1,0 +1,8 @@
+def multiplesNOrM(x, n, m):
+    if x%n==0 or x%m==0:
+        return True
+    else:
+        return False
+print multiplesNOrM(4, 2, 3)
+
+R: True
