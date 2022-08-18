@@ -1,0 +1,15 @@
+def showInfo4(s, n):
+    i=1
+    while i<=n:
+        print s*i
+        i=i+1
+showInfo4("hello", 7)
+
+R:
+hello
+hellohello
+hellohellohello
+hellohellohellohello
+hellohellohellohellohello
+hellohellohellohellohellohello
+hellohellohellohellohellohellohello
