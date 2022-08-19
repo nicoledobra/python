@@ -1,0 +1,8 @@
+result = ( 3 == "3" )
+result2 = (str(3) == "3")x
+
+print result
+R: False
+
+print result2
+R: True
