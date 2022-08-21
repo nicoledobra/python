@@ -3,6 +3,8 @@ def findMax(a, b):
     print max(a, b)
 findMax(123, 234)
 
+R: 234
+
 B.
 def findMax(a, b):
     if a<b:
@@ -10,3 +12,5 @@ def findMax(a, b):
     else:
       print a
 findMax(123, 234)
+
+R: 234
