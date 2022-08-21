@@ -1,0 +1,17 @@
+def showNumbers(n):
+    i=0
+    while i<n:
+        print i
+        i+=1
+showNumbers(9)
+
+R:
+0
+1
+2
+3
+4
+5
+6
+7
+8
