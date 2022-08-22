@@ -1,0 +1,14 @@
+def min2(a, b):
+    print min(a, b)
+min2(1, 2)
+
+R: 1
+
+def min2(a, b):
+    if a<b:
+      print a
+    else:
+      print b
+min2(1, 2)
+
+R: 1
