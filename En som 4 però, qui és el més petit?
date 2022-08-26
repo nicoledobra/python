@@ -1,0 +1,5 @@
+def min4(a, b, c, d):
+    print min(a, b, c, d)
+min4(5132, 45, 163, 12)
+
+R: 12
