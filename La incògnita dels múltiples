@@ -1,0 +1,8 @@
+def multiplesNAndM(X, n, m):
+    if X%n==0 and X%m==0:
+        print True
+    else:
+        print False
+multiplesNAndM(4, 2, 3)
+
+R: False
