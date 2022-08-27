@@ -1,0 +1,5 @@
+def countNumbers(n):
+    print (n*(n+1))/2
+countNumbers(3)
+
+R: 6
