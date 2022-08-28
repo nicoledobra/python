@@ -4,3 +4,14 @@ def operations(s, t):
     else:
         print "'" + (t*len(t))+ "'"
 operations("a", "bye")
+
+R: byebyebye
+
+sin comillas 
+
+def operations(s, t):
+    if len(s)>=len(t):
+        print s+t
+    else:
+        print t*len(t)
+operations("a", "hello") 
