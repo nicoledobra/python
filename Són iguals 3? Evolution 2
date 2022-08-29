@@ -1,0 +1,12 @@
+result=3.0=="3"
+result2=str(3.0)=="3"
+result3=str(3.0)=="3.0"
+
+print result
+R: False
+
+print result2
+R: True
+
+print result3
+R: Ture
