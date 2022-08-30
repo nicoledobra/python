@@ -1,0 +1,8 @@
+def check(a, b, s, t):
+    if a>b and a*2+b<100 or s!=t:
+        print True
+    else:
+        print False
+check(1,2, "hello", "bye")
+
+R: True
