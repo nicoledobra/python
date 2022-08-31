@@ -1,0 +1,10 @@
+def calculations(a, b):
+    if a**2+b**2>100:
+        print a*b
+    if a**2+b**2<100:
+        print a/b
+    if a**2+b**2==100:
+        print a+b
+calculations(10, 0)   
+
+R: 10
