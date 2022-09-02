@@ -1,0 +1,13 @@
+s = "banana"                                                
+i = 0                                                
+while i < len(s):                                                       
+    print s[i]                                           
+    i = i + 1
+    
+R: 
+b
+a
+n
+a
+n
+a
