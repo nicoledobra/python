@@ -1,0 +1,5 @@
+s="Hello how are you"
+result=s[6:9]
+print result
+
+R: how
