@@ -1,0 +1,9 @@
+text = "good morning fairy of the ideas"                                                            
+print text[1]                    
+print text[5:7]                                             
+print text.count(‘e’)
+
+R:
+o
+mo
+2
