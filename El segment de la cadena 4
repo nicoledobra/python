@@ -6,3 +6,5 @@ def segment(s, n, m):
     else:
         return "Segment can not be done"
 print segment("", 0, 2)
+
+R: Segment can not be done
