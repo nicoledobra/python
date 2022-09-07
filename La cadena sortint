@@ -1,0 +1,10 @@
+text = "babar"                                                           
+for letter in text:
+print letter + "a"
+          
+R:
+ba
+aa
+ba
+aa
+ra
