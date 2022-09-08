@@ -1,3 +1,12 @@
 s = "unknown"                                                        
 for c in s:                                                          
     print c * len(s)
+
+R:
+uuuuuuu
+nnnnnnn
+kkkkkkk
+nnnnnnn
+ooooooo
+wwwwwww
+nnnnnnn
