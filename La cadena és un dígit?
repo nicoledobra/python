@@ -8,3 +8,5 @@ def isADigit(s):
         else:
             return False
 print isADigit("123")
+
+R: False
