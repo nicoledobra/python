@@ -4,3 +4,5 @@ def verify3(s, c):
     else:
         return False
 print verify3("hello", "a")
+
+R: True
