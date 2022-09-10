@@ -8,3 +8,5 @@ def isLower(s):
     else:
         print False
 isLower("ab")
+
+R: False
