@@ -1,3 +1,4 @@
+A)
 def isUpper(s):
     if len(s)==1:
         if s in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
@@ -8,6 +9,9 @@ def isUpper(s):
         return False
 print isUpper("n")
 
+R: False
+
+B)
 def isUpper(s):
    for u in s:
         if u in "ABCDEFGHIJKLMNOPQRSTUVWVXYZ":
@@ -15,3 +19,5 @@ def isUpper(s):
         else:
             return False
 print isUpper("a")
+
+R: False
