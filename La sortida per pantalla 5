@@ -1,0 +1,9 @@
+s = "what does this code print"
+vowels = "aeiou"
+result = ""
+for letter in s:
+    if letter not in vowels:
+        result += letter
+print result
+
+R: wht ds ths cd prnt
