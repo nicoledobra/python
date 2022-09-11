@@ -7,3 +7,5 @@ def isAlphabetic(s):
         else:
             return False
 print isAlphabetic("abc")
+
+R: False
