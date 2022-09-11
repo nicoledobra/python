@@ -1,0 +1,26 @@
+def mystery(s):
+    r = ""
+    i = 0
+    while i < len(s):
+        letter = s[i]
+        if letter in 'aeiou':
+            r = r + letter
+        i = i + 1
+    return r
+def mystery2(s):
+    r = ""
+    for letter in s:
+        if letter in '0123456789':
+            r = r + letter
+    return r
+s = "hello how are you 123"
+print s
+print mystery(s)
+print mystery2(s)
+
+R:
+hello how are you 123
+
+eooaeou
+
+123
