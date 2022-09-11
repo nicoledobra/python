@@ -1,3 +1,4 @@
+A)
 def isANumber(s):
     for u in s:
         if u not in "0123456789":
@@ -5,7 +6,9 @@ def isANumber(s):
     return True
 print isANumber("123")
 
+R: True
 
+B)
 def isANumber(s):
     if len(s)==0:
         return False
@@ -16,3 +19,5 @@ def isANumber(s):
         else:
             return False
 print isANumber("ab")
+
+R: False
