@@ -2,4 +2,9 @@ def getLowerCase():
     return "abcdefghijklmnopqrstuvwxyz"
 print getLowerCase()
 
+def getLowerCase():
+    m=s.lower()
+    print "'"+m+"'"
+print getLowerCase("RETRDdsew")
+
 R: abcdefghijklmnopqrstuvwxyz
