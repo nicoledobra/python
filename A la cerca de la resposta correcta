@@ -1,0 +1,29 @@
+def function1(x, y = "python"): 
+    i = 0
+    while i < len(y):
+        word = y[i]
+        print (word * x)
+        i = i + 1
+def function2(w): 
+    i=1
+    while i <= 2:
+        if w % 2 == 0:
+            w=w+2 
+        print (w)
+        i=i+1 
+    return w
+
+x=0
+s = "final"
+function1(function2(x)) 
+print (s)
+
+R:
+2
+4
+pppp
+yyyy
+tttt
+hhhhoooo
+nnnn
+final
