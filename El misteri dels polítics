@@ -1,0 +1,21 @@
+En Pau i vuit polítics més viatgen en un comboi format per grans furgonetes. Cada polític (politician) porta el seu secretari (secretary) perquè l’ajudi durant el viatge i, a més, els acompanyen guardaespatlles (bodyguards). Com es distribuiran els polítics, els guardaespatlles i els secretaris en les diferents furgonetes?
+
+Les normes de seguretat i protocol diuen que:
+
+- Quan un polític marxa de viatge ha de portar 2 guardaespatlles.
+- Cada polític vol viatjar en la mateixa furgoneta que el seu secretari.
+- Totes les furgonetes han de portar la mateixa quantitat de passatgers.
+- Cada guardaespatlles viatjarà amb 3 polítics, com a mínim, en la seva furgoneta.
+
+R:
+3 politician
+6 bodyguard
+3 secretary
+
+3 politician
+6 bodyguard
+3 secretary
+
+3 politician
+6 bodyguard
+3 secretary
