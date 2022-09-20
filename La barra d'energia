@@ -1,0 +1,6 @@
+color 2
+setpensize 1
+repeat 100[
+    repeat 4[
+        fd 100 rt 90]
+    pu rt 90 fd 3 lt 90 fd 3 pd]
