@@ -1,0 +1,9 @@
+def maxAscii(s):
+  i=s[0]
+  for m in s:
+    if m>i:
+      i=m
+  return i
+print maxAscii("hello")
+
+R: o
