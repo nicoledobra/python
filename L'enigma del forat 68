@@ -1,0 +1,17 @@
+def f1(s):
+    r = ""
+    for c in s:
+        r = r + "w" + c
+    return r
+
+def f2(s, c):
+    r = ""
+    for letter in s:
+        if letter in 'aeiou':
+            r = r + letter + c
+        else:
+            r = r + letter
+    return r
+phrase = "mysterious text"
+print f1(phrase)
+print f2(phrase, "%")
