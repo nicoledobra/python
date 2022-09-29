@@ -1,0 +1,27 @@
+def function1(x, s = "hello"):                                                         
+    for letter in s:                                                            
+        print letter * x                                                          
+    return len(s)                                                            
+x = "computer"                                            
+y = function1(2)                                              
+if y > 5:                                           
+    print "End of program"                                                   
+else:                                  
+    print "Total length is: %d" % (function1(2, x))
+    
+    
+R: 
+hh
+ee
+ll
+ll
+oo
+cc
+oo
+mm
+pp
+uu
+tt
+ee
+rr
+Total length is: 8
