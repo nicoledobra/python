@@ -1,0 +1,18 @@
+def slice(s, index):
+    i = index
+    r = ""
+    while i < len(s) and s[i] != " ":
+        r = r + s[i]
+        i = i + 1
+    return r
+s = "Text with some words"
+
+sub1 = slice(s, 0)
+sub2 = slice(s, 5)
+sub3 = slice(s, 10)
+sub4 = slice(s, 15)
+
+print sub1
+print sub3
+print sub2
+print sub4
