@@ -1,6 +1,6 @@
 def cases(l):
     i = len(l) - 1
-    for i >= 0:
+    while i >= 0:
         element = l[i]
         if "o" in element:
             print element
