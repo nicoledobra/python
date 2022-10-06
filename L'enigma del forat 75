@@ -1,0 +1,12 @@
+def cases(l):
+    i = len(l) - 1
+    for i >= 0:
+        element = l[i]
+        if "o" in element:
+            print element
+        i = i - 1
+l = ("Some", "words", "to", "practise", "this")
+cases(l)
+  for element in l:
+print
+ len(element)
