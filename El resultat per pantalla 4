@@ -4,9 +4,4 @@ for element in l:
     for subelement in element:                                                       
         print subelement,
         
-R: 1
-2
-3
-4
-5
-6
+R: 123456
