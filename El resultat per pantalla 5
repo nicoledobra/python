@@ -1,0 +1,9 @@
+l = ["how", "to", "learn", "to", "work", "with", "lists"]
+result = []   
+for element in l:                                                 
+    for c in element:                                           
+        if 'o' <= c and c <= 's':                                       
+            result += [element]                           
+print result
+
+R: ['how', 'to', 'learn', 'to', 'work', 'work', 'lists', 'lists']
