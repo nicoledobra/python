@@ -5,7 +5,7 @@ def cases(l):
         if "o" in element:
             print element
         i = i - 1
-l = ("Some", "words", "to", "practise", "this")
+l = ["Some", "words", "to", "practise", "this"]
 cases(l)
   for element in l:
 print
