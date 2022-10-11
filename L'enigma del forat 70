@@ -1,0 +1,9 @@
+s = "we are learning Python"
+l = ["we", "are", "learning", "Python"]
+
+print s[0]
+print l[0]
+print s[1 + 2]
+print l[0 + 3]
+print s[-1]
+print l[-1]
