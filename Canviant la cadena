@@ -1,0 +1,21 @@
+def change(s):
+    p=s.replace("a", "@")
+	print (p)
+change("arack attack")
+
+
+def change(s):
+    p=s.replace("a", "@")
+	print p
+change("arack attack")        
+
+
+def change(s):
+    for c in s:
+        if s[c] == "a":
+            print ("@")
+        else:
+            print (c)
+change("arack attack")
+
+
