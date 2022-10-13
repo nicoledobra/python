@@ -1,0 +1,10 @@
+def word (s, i):
+    for letter in s:
+        print letter * i
+l1 = [1, 2, 3, 4]
+s = "hello"
+word(s, l1[1])
+print "Space"
+word(s, l1[3])
+print "Space"
+word(s, l1[2])
