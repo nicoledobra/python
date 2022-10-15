@@ -1,0 +1,21 @@
+def test(s):
+    for i in range(1, 5):
+        print i
+def word(s):
+    for i in range(1, 5):
+        print s * i
+s = "Hello"
+print len(s)
+test(s)
+word(s)
+
+R:
+5
+1
+2
+3
+4
+Hello
+HelloHello
+HelloHelloHello
+HelloHelloHelloHello
