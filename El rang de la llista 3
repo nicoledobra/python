@@ -1,0 +1,6 @@
+result=[0,3,6,9,12,15,18]
+print result
+o
+print range(0,20,3)
+
+R: 0,3,6,9,12,15,18
