@@ -1,0 +1,16 @@
+def calculation(l):
+    if len(l) == 0:
+        return "Empty list"
+    else:
+        r = 0.0
+        for element in l:
+            r = r + element
+        return r / len(l)
+l1 = range(10)
+l2 = []
+print (calculation(l2))
+print (calculation(l1))
+
+R:
+Empty list
+4.5
