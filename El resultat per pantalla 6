@@ -1,0 +1,8 @@
+l = ["a", "mysterious", "exercise"]                                                    
+for element in l:                                                            
+    print element[0] * len(element)
+    
+R:
+a
+mmmmmmmmmm
+eeeeeeee
