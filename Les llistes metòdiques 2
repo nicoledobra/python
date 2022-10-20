@@ -1,0 +1,7 @@
+result="how are you"
+print result
+result2=list(result)
+print result2
+R:
+how are you
+['h', 'o', 'w', ' ', 'a', 'r', 'e', ' ', 'y', 'o', 'u']
