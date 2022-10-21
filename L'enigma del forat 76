@@ -1,0 +1,22 @@
+def filtering(l):
+    i = 0
+    while i < len(l):
+        if i % 2 == 0:
+            print (l[i])
+        elif len(l[i]) >= 6:
+            print (l[i])
+        else:
+            print ("No")
+        i = i + 1
+l = ["List", "of", "some", "random", "words", "for", "testing"]
+filtering(l)
+
+
+R:
+List
+No
+some
+random
+words
+No
+testing
