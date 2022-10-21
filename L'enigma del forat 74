@@ -1,0 +1,20 @@
+def visit(l):
+    for element in l:
+        print element
+l1 = [1, 2, 3, 4]
+l2 = [[1, 2], [3,4], [5, 6]]
+print "First length: " + str(len(l1))
+print "Second length: " + str(len(l2))
+visit(l1)
+visit(l2)
+
+R:
+First length: 4
+Second length: 3
+1
+2
+3
+4
+[1, 2]
+[3, 4]
+[5, 6]
