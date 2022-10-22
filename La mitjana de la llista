@@ -1,12 +1,11 @@
 def averageIntegerList(s):
     i=len(s)
     x=sum(s)
-    if s!=0:
+    if s==[]:
+        print 0.0
+    else:
         result=float (x/i)
         print str(result)
-    else:
-        result=float(s)
-        print str(result)
-averageIntegerList([0])
+averageIntegerList([1, 2, 3])
 
 R: 2.0
