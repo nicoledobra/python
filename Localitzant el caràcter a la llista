@@ -1,0 +1,6 @@
+def find(l, c):
+    for element in l:
+        if c in element:
+            return element
+    return ''
+print find(['hello'], 'a')
