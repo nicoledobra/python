@@ -1,0 +1,18 @@
+def repeat(s, n):
+  for c in s:
+        print c * n
+def slice(l, i1, i2):
+    r = []
+    i = i1    
+    while i < i2:
+        r = r + [ l[i] ]
+        i = i + 1
+    return r
+l = ["a", "b", "c", "d", "e", "f", "g"]
+
+subl1 = slice(l, 1, 5)
+subl2 = slice(l, 0, 6)
+i = 1
+for element in (subl1 + subl2):
+    repeat(element, i)
+    i = i + 1
