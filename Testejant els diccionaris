@@ -1,0 +1,12 @@
+print len(d)                                          
+d['cherries'] = 25                                         
+print d['cherries']                                             
+del d['apples']                                         
+d.has_key('apples')                                            
+print d.values()
+
+R:
+3
+25
+False
+[35, 25]
