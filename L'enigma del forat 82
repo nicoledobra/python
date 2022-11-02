@@ -1,0 +1,12 @@
+d = {"hello": "bye", "right": "left", "good": "bad"}
+k = d.keys()
+l = ["a", "b", "c", "d", "e"]
+
+for element in l:
+    for c in k:
+        if element in c:
+            print (element, c)
+
+R: 
+d good
+e hello
