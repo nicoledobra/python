@@ -1,0 +1,8 @@
+repeat 20[
+    color 4
+    fd 100
+    color 3
+    fd 50
+    color 8
+    fd 50
+    pu bk 200 lt 360/20 pd]
