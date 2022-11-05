@@ -1,0 +1,9 @@
+                                                           
+s="hello how are you"                                           
+result={}                                                      
+for c in s:                                         
+   result[c]= result.get(c, 0) + 1 
+print result
+R:
+{'h': 2, 'e': 2, 'l': 2, 'o': 3, ' ': 3,
+'w': 1, 'a': 1, 'r': 1, 'y': 1, 'u': 1}
