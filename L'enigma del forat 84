@@ -1,0 +1,21 @@
+def count(s):
+    r = 0
+    for letter in s:
+        if letter == 'a':
+            r = r + 1
+    return r
+def deleteVowels(s):
+    r = ""
+    for letter in s:
+        if letter not in 'aeiou':
+            r = r + letter
+    return r
+
+d = { "hello": "bye", "left": "right" }
+result = {}
+k = d.keys()
+for element in k:
+    result[ deleteVowels( element ) ] = count( d[element] )
+print (result)
+
+R: {'hll': 0, 'lft': 0}
