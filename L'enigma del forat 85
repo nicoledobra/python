@@ -1,0 +1,24 @@
+def interchange(d):
+    result = {}
+    k = d.keys()
+    for element in k:
+        result[ d[element] ] = element
+    return result
+
+def generate(l):
+    result = {}
+    for element in l:
+        result[ len(element) ] = element
+    return result
+
+l = [ "a", "bb", "ccc" ]
+print (l)
+d = generate(l)
+print (d)
+d = interchange(d)
+print (d)
+
+R:
+['a', 'bb', 'ccc']
+{1: 'a', 2: 'bb', 3: 'ccc'}
+{'a': 1, 'bb': 2, 'ccc': 3}
