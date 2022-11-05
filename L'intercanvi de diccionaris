@@ -1,0 +1,12 @@
+def exchange(d):
+    x = {}
+    for k, v in d.items():
+        if v in x:
+            x[v].append(k)
+        else:
+            x[v] = (k)
+    return x
+print exchange({"one": 1, "two": 2})
+
+R:
+{1: 'one', 2: 'two'}
