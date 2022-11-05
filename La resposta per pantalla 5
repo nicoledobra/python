@@ -1,0 +1,13 @@
+def fun(s):
+    result = ""
+    for c in s:
+        if c in 'aeiou':
+            result = result + (len(s) * c)
+    return result
+l = ["hello", "how", "are", "you"]
+result = {}
+for e in l:
+    result[e] = fun(e)
+print(result)
+
+R: {'hello': 'eeeeeooooo', 'how': 'ooo', 'are': 'aaaeee', 'you': 'ooouuu'}
