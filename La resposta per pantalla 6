@@ -1,0 +1,12 @@
+def ma(s):
+    m = s[0]
+    for c in s:
+        if ord(c) > ord(m):
+            m = c
+    return m
+d = {"one": "hello", "two": "bye", "three": "day", "four": "night"}
+for c in d.keys():
+    d[c] = ma(d[c])
+print(d)
+
+R: {'one': 'o', 'two': 'y', 'three': 'y', 'four': 't'}
