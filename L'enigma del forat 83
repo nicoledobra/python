@@ -1,0 +1,15 @@
+def add(s, c):
+    r = ""
+    for letter in s:
+        r = r + letter + c
+    return r
+def mystery(d):
+    r = {}
+    k = d.keys()
+    for element in k:
+        r[ add( element, d[element] ) ] = d[element]
+    return r
+d = {"a": "x", "b": "y", "c": "z"}
+print (mystery(d))
+
+R: {'ax': 'x', 'by': 'y', 'cz': 'z'}
