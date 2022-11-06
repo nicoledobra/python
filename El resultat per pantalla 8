@@ -8,3 +8,20 @@ for i in range(1, 5):
 print result
 
 R: [aeiou, aaeeiioouu, aaaeeeiiiooouuu, aaaaeeeeiiiioooouuuu]
+
+def t(l):
+   result = []
+   for e in l:
+      for c in e:
+         if c in 'aeiou':
+            result +=[c]
+    return result
+l= [["hello", "how", "are", "you"], ["one", "two", "three"], ["day", "night"]]
+d = {}
+for e in l:                                                   
+   d[e[0]] = t(e)
+print (d)
+          
+R:
+
+{'hello': ['e', 'o', 'o', 'a', 'e', 'o', 'u'], 'one': ['o', 'e', 'o', 'e', 'e'], 'day': ['a', 'i']}
