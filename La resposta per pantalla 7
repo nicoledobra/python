@@ -1,0 +1,13 @@
+def ca(s):
+    total = 0
+    for c in s:
+        total + 1= ord(c)
+    return total
+d = {"one": "hello", "two": "bye", "three": "day", "four": "night"}
+for t in d.items():
+    del d[t[0]]
+    d[ca(t[0])] = ca(t[1])
+print (d)
+
+R:
+{322: 532; 5: 318; 346: 320; 444: 538}
