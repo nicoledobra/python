@@ -1,0 +1,11 @@
+import math
+def root(n):
+    if n%5==0 and n>=0:
+        print math.sqrt(n)
+    else:
+        print abs(n)
+print root(25)
+
+R: root(25)
+5.0
+None
