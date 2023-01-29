@@ -1,0 +1,18 @@
+a)
+def square(n):
+    if n>=0 or n%2==0:
+        return n**2
+    else:
+        return n*(-1)
+print square(-5)
+
+R: 5
+b)
+def square(n):
+    if n>=0 or n%2==0:
+        return n**2
+    else:
+        return abs(n)
+print square(-2)
+
+R: 4
