@@ -1,0 +1,10 @@
+def toLowerCase(s):
+    letter="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    if len(s)==1:
+        if s in letter:
+            print "'" + s.lower() + "'"
+        else:
+            print "'" + s + "'"
+    else:
+        print "'" + s + "'"
+toLowerCase("A")
