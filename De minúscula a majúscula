@@ -1,0 +1,10 @@
+def toUpperCase(s):
+    letter="abcdefghijklmnopqrstuvwxyz"
+    if len(s)==1:
+        if s in letter:
+            print "'" + s.upper() + "'"
+        else:
+            print "'" + s + "'"
+    else:
+        print "'" + s + "'"
+toUpperCase("ab")
