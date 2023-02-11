@@ -1,0 +1,11 @@
+def maxLengthWord(l):
+    if not l:
+        return -1
+    m = ""
+    for paraula in l:
+        if len(paraula) > len(m):
+            m = paraula
+    return m
+    for paraula in []:
+        print ("-1")
+print maxLengthWord(['hello'])
