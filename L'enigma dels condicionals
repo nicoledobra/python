@@ -8,3 +8,17 @@ def calculations(a, b):
 calculations(10, 0)   
 
 R: 10
+
+def calculations(a, b):
+    if a**2 + b**2==100:
+        result = a + b
+        print result
+    elif a**2 + b**2>100:
+        result = a* b
+        print result
+    else:
+        result = a/b
+        print result
+calculations(10, 4)
+
+R: 40
