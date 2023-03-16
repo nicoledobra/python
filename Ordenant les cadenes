@@ -1,0 +1,22 @@
+def m(s, s2):
+
+                                                            
+        if len(s)!=len(s2):
+
+                                                            
+                return ""
+        else:
+                r=""
+                i=0
+                while i < len(s):
+                        r = r + s2[i] + s[i]
+                        i= i + 1
+                return r
+
+                                                            
+
+
+                                                            
+print(m("code", "rule"))
+
+R: rcuoldee
