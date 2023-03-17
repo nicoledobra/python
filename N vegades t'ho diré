@@ -1,0 +1,5 @@
+def sayntimes(s, n):
+    print s*n
+sayntimes("Hola yo", 5)
+
+R: Hola yoHola yoHola yoHola yoHola yo
