@@ -1,0 +1,10 @@
+l1 = [10, 20, 30]                                                 
+l2 = [1, 2, 3]                                                 
+s = 0                                                 
+for i in range(0, len(l1)):                                                 
+    s = s + (l1[i] * l2[i])                                                 
+print(s)
+
+R: 140
+
+para l1 y l2 tenemos: 10*1+20*2+30*3=140
