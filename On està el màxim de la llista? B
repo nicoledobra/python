@@ -1,0 +1,36 @@
+def indexMaxFloatList(lst):
+    if len(lst) == 0:
+        return "There is no maximum"
+    else:
+        max_val = max(lst)
+        if max_val in lst:
+            return lst.index(max_val)
+        else:
+            return "There is no maximum"
+print indexMaxFloatList([1.0, 2.0, 3.0])
+
+R: 2
+
+def indexMaxFloatList(lst):
+    if len(lst) == 0:
+        return "There is no maximum"
+    max_val = lst[0]
+    max_idx = 0
+    for i, val in enumerate(lst):
+        if val > max_val:
+            max_val = val
+            max_idx = i
+    return max_idx
+print indexMaxFloatList([1.0, 2.0, 3.0])
+
+
+def indexMaxFloatList(lst):
+    if len(lst) == 0:
+        return "There is no maximum"
+    try:
+        max_val = max(lst)
+        max_idx = lst.index(max_val)
+    except ValueError:
+        return "There is no maximum"    
+    return max_idx
+print indexMaxFloatList([1.0, 2.0, 3.0])
