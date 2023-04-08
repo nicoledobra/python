@@ -1,0 +1,12 @@
+def dictioStrings(l):
+    dic = {}
+    for s in l:
+        paraula = s.split()[0]
+        dic[paraula] = s
+    return dic
+print dictioStrings(["one phrase"])
+
+
+def dictioStrings(l):
+    return {s.split()[0]: s for s in l}
+print dictioStrings(["one phrase"])
