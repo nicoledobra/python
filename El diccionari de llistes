@@ -1,0 +1,16 @@
+def dictioLists(l):
+    dictio = {}
+    for subllista in l:
+        clau = subllista[-1]
+        valor = subllista[:3]
+        dictio[clau] = valor
+    return dictio
+print dictioLists([["how", "are", "you"], ["a"], ["1", "2"]])
+
+
+def dictioLists(l):
+    dictio = {subllista[-1]: subllista[:3] for subllista in l}
+    return dictio
+print dictioLists([["how", "are", "you"], ["a"], ["1", "2"]])
+
+
