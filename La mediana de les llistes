@@ -1,0 +1,24 @@
+def listsMedian(l):
+    if len(l) == 0:
+        return 'You can not calculate the median of an empty list'
+    medians = []
+    for sublist in l:
+        sorted_sublist = sorted(sublist)
+        n = len(sublist)
+        if n % 2 == 0:
+            median = (sorted_sublist[n//2-1] + sorted_sublist[n//2])/2
+        else:
+            median = sorted_sublist[n//2]
+        medians.append(median)
+    sorted_medians = sorted(medians)
+    n_medians = len(medians)
+    if n_medians % 2 == 0:
+        result = (sorted_medians[n_medians//2-1] + sorted_medians[n_medians//2])/2
+    else:
+        result = sorted_medians[n_medians//2]
+    return result
+print listsMedian([[1.0, 2.0], [8.0, 7.0, 7.0], [2.0, 3.0]])
+
+R: La funció primer calcularia les medianes de cada llista interior (que serien 1.5, 7.0 i 2.5, respectivament). 
+A continuació, calcularia la mediana global d'aquestes medianes, que seria 2.5.
+
