@@ -1,0 +1,17 @@
+def exchange(d):
+    result = {}
+    keyslist = d.keys()
+    for k in keyslist:
+        result[d[k]] = k
+    return result
+print (exchange({"good morning": "good night"}))
+R: {}
+
+def exchange(d):
+    result = {}
+    keyslist = d.keys()
+    for k in keyslist:
+        result[d[k]] = k
+    return result
+print (exchange({"good morning": "good night"}))
+R: {"good night": "good morning"}
