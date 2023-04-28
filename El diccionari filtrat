@@ -1,0 +1,21 @@
+def correct2(l):
+    vowels = set("aeiouAEIOU")
+    result = {}
+    for i, s in enumerate(l):
+        if any(v in s for v in vowels):
+            result[i] = s
+    return result
+correct2(["b", "bc", "bcd", "abcd", "abcde"])
+
+
+def correct2(l):
+    result = {i: s for i, s in enumerate(l) if any(c in 'aeiouAEIOU' for c in s)}
+    return result
+correct2(["b", "bc", "bcd", "abcd", "abcde"])
+
+
+def correct2(l):
+    vowels = set('aeiouAEIOU')
+    result = dict(filter(lambda x: any(c in vowels for c in x[1]), enumerate(l)))
+    return result
+correct2(["b", "bc", "bcd", "abcd", "abcde"])
