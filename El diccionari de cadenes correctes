@@ -1,0 +1,16 @@
+def fun(l):
+    result = {}
+    for i, s in enumerate(l):
+        if '@' in s:
+            result[i] = s
+    return result
+print fun(["b", "@bc", "bcd", "@bcd", "abcde"])
+
+def fun(l):
+    result = {}
+    i = 0
+    while i < len(l):
+        if '@' in l[i]:
+            result[i] = l[i]
+        i += 1
+    return result
