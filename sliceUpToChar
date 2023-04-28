@@ -1,0 +1,6 @@
+def sliceUpToChar(s, c):
+    if c in s:
+        return s[:s.index(c) + 1]
+    else:
+        return ''
+sliceUpToChar("hello", "l")
