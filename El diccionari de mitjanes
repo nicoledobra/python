@@ -1,7 +1,7 @@
 def results1(l):
     result_dict = {}
     for i, sublist in enumerate(l):
-        result_dict[i] = sum(sublist) / len(sublist)
+        result_dict[i] = float(sum(sublist) / len(sublist))
     return result_dict
 print results1([[1, 2, 3], [10, 20], [100, 100, 100, 100]])
 
