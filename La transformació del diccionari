@@ -1,0 +1,18 @@
+def transform(l):
+    d = {}
+    for s in l:
+        length = len(s)
+        if d.get(length) is not None:   # comprovar si la clau ja existeix al diccionari
+            return {}                  # retornar un diccionari buit si hi ha una longitud duplicada
+        d[length] = s                  # afegir la clau i el valor al diccionari
+    return d
+print transform(['cat', 'dog', 'bat'])
+
+
+def transform(l):
+    lengths = set(len(s) for s in l)  # obtenir una llista única de longituds
+    if len(l) != len(lengths):        # comprovar si hi ha longituds duplicades
+        return {}                     # retornar un diccionari buit en aquest cas
+    else:
+        return {len(s): s for s in l}  # construir el diccionari de sortida amb les claus i els valors corresponents
+print transform(['cat', 'dog', 'bat'])
