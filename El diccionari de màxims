@@ -1,0 +1,8 @@
+def results2(l):
+    result_dict = {}
+    for i, sublist in enumerate(l):
+        max_value = max(sublist)
+        result_dict[i] = max_value
+    return result_dict
+print results2([[1, 2, 3], [10, 20], [100, 100, 100, 100]])
+
