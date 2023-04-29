@@ -1,0 +1,18 @@
+def scores(l):
+    d = {}
+    for sublist in l:
+        key = ' '.join(map(str, sublist[:2]))
+        value = sum(sublist[2:]) / len(sublist[2:])
+        d[key] = value
+    return d
+print scores([["Harry", "Potter", 7, 8, 9], ["Ron", "Weasley", 5, 5], ["Hermione", "Granger", 10]])
+
+
+def scores(l):
+    d = {}
+    for sublist in l:
+        key = ' '.join(map(str, sublist[:2]))
+        value = sum(map(float, sublist[2:])) / len(sublist[2:])
+        d[key] = d.get(key, 0) + value
+    return d
+print scores([["Harry", "Potter", 7, 8, 9], ["Ron", "Weasley", 5, 5], ["Hermione", "Granger", 10]])
