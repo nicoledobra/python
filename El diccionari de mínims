@@ -1,0 +1,12 @@
+def results3(l):
+    result_dict = {}
+    for sublist in l:
+        key = "".join(str(elem) for elem in sublist)
+        value = min(sublist)
+        result_dict[key] = value
+    return result_dict
+print results3([[1, 2, 3], [10, 20], [100, 100, 100, 100]])
+
+def results3(l):
+    return {"".join(map(str, sublist)): min(sublist) for sublist in l}
+print results3([[1, 2, 3], [10, 20], [100, 100, 100, 100]])
