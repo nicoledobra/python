@@ -1,0 +1,17 @@
+def counting1(s):
+    d = {}
+    for c in s:
+        if c in d:
+            d[c] += 1
+        else:
+            d[c] = 1
+    return d
+print counting1("hello how are you")
+
+
+def counting1(s):
+    d = {}
+    for c in s:
+        d[c] = d.get(c, 0) + 1
+    return d
+print counting1("hello how are you")
