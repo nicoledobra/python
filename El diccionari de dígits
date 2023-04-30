@@ -1,0 +1,15 @@
+def counting3(s):
+    d = {}
+    for char in s:
+        if char.isdigit():
+            d[char] = d.get(char, 0) + 1
+    return d
+print counting3("hello23 how are34 you45")
+
+def counting3(s):
+    d = {}
+    for char in s:
+        if char.isdigit():
+            d[char] = d.get(char, 0) + 1
+    return d
+print counting3("hello23 how are34 you45")
