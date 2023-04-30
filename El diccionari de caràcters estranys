@@ -1,0 +1,15 @@
+def counting4(s):
+    count = {}
+    for c in s:
+        if not c.isalnum() and not c.isspace():
+            count[c] = count.get(c, 0) + 1
+    return count
+print counting4("hello how are you@")
+
+def counting4(s):
+    d = {}
+    for c in s:
+        if not c.isalnum() and d.get(c) is None:
+            d[c] = s.count(c)
+    return d
+print counting4("hello how are you@")
