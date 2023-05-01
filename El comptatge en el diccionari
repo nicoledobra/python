@@ -1,0 +1,15 @@
+def count(d):
+    na = 0
+    for value in d.values():
+        for c in str(value):
+            if c == 'a':
+                na += 1
+    return na
+print count({1: "hello", 2: "how", 3: "are", 4: "you"})
+
+def count(d):
+    count_a = 0
+    for value in d.values():
+        count_a += value.count('a')
+    return count_a
+print count({1: "hello", 2: "how", 3: "are", 4: "you"})
