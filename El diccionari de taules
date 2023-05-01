@@ -1,0 +1,41 @@
+def multiplicationTables(n):
+    tables = {}
+    for i in range(1, n+1):
+        products = []
+        for j in range(1, 11):
+            product = i * j
+            products.append(product)
+        tables[i] = products
+    return tables
+print multiplicationTables(2)
+
+{1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]}
+
+def multiplicationTables(n):
+    result = {}
+    i = 1
+    while i <= n:
+        table = []
+        j = 1
+        while j <= 10:
+            table.append(i * j)
+            j += 1
+        result[i] = table
+        i += 1
+    return result
+print multiplicationTables(2)
+
+def multiplicationTables(n):
+    table_dict = {}
+    for i in range(1, n+1):
+        table = []
+        for j in range(1, 11):
+            result = i*j
+            table.append(result)
+        table_dict[i] = table
+    return table_dict
+
+# Exemple d'ús amb get()
+tables = multiplicationTables(5)
+print(tables.get(3, "La taula de multiplicar no existeix"))
+print(tables.get(6, "La taula de multiplicar no existeix"))
