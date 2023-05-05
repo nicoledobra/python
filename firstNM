@@ -1,0 +1,11 @@
+def firstNM(n, m):
+    for i in range(m, m+n):
+        print(i)
+firstNM(5, 10)
+
+R:
+10
+11
+12
+13
+14
