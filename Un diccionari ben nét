@@ -1,0 +1,29 @@
+def clean(d):
+    result = {}
+    for key, value in d.items():
+        if isinstance(value, str):
+            clean_value = ''.join(filter(str.isalpha, value))
+            result[key] = clean_value
+        else:
+            result[key] = value
+    return result
+print clean({"hello@": "123abc", "$%&": "123"})
+
+
+def clean(d):
+    return {k: ''.join(filter(str.isalpha, v)) if isinstance(v, str) else v for k, v in d.items()}
+print clean({"hello@": "123abc", "$%&": "123"})
+
+
+def clean(d):
+    translator = str.maketrans('', '', string.punctuation + string.digits)
+    cleaned_dict = {}
+    for k, v in d.items():
+        if isinstance(v, str):
+            cleaned_val = v.translate(translator).replace('@', '')
+            cleaned_key = k.translate(translator).replace('@', '')
+            cleaned_dict[cleaned_key] = cleaned_val
+        else:
+            cleaned_dict[k] = v
+    return cleaned_dict
+print clean({"hello@": "123abc", "$%&": "123"}
