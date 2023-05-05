@@ -1,0 +1,6 @@
+def scope2(n, m):
+    if n < m:
+        return list(range(n, m))
+    else:
+        return list(range(n, m, -1))
+print 
