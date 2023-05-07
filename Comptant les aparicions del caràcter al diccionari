@@ -1,0 +1,11 @@
+def count2(d, c):
+    count = 0
+    for v in d.values():
+        count += v.count(c)
+    return count
+print count2({1: "hello", 2: "how", 3: "are", 4: "you"}, 'e')
+
+
+def count2(d, c):
+    return sum([v.count(c) for v in d.values()])
+print count2({}, 'a')
