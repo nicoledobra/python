@@ -1,0 +1,14 @@
+import re
+
+def clean(d):
+    clean_dict = {}
+    for key, value in d.items():
+        if isinstance(value, str):
+            clean_value = re.sub(r'[^a-zA-Z.,!?]', '', value)
+            clean_key = re.sub(r'[^a-zA-Z.,!?]', '', key)
+            clean_dict[clean_key.strip()] = clean_value.strip()
+        else:
+            clean_dict[key.strip()] = value
+    return clean_dict
+
+print(clean({"hello@":"123abc","$%&":"123"}))
