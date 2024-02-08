@@ -1,0 +1,22 @@
+Ajudes:
+- Usa el sistema clàssic per construir la figura.
+- Dibuixa un cub arrodonit amb mida de costats 10 per les x, 3 per les y i 10 per les z. Fes que el cub es trobi centrat a l'eix de coordenades. Emmagatzema'l a una variable de nom x.
+- Dibuixa un altre cub arrodonit de mida de costats 4 i que també es trobi centrat a l'eix de coordenades. Tot seguit trasllada'l a les coordenades [0, 0, 7]. Emmagatzema'l a una variable de nom y.
+- Crea la unió entre els dos cubs, i trasllada el resultat a les coordenades [0, 0, 11.5]. Emmagatzema aquesta unió a una variable de nom z.
+- Crea un nou cub arrodonit i centrat, de costats x -> 2, y -> 2 i z -> 7. Tot seguit trasllada'l a les coordenades [6, 0, 12.5]. Emmagatzema'l a una variable de nom a.
+- Crea un nou cub arrodonit i centrat, de costats x -> 2, y -> 2 i z -> 7. Tot seguit trasllada'l a les coordenades [-6, 0, 12.5]. Emmagatzema'l a una variable de nom b.
+- Crea un nou cub arrodonit i centrat, de costats x -> 3, y -> 3 i z -> 7. Tot seguit trasllada'l a les coordenades [3, 0, 3]. Emmagatzema'l a una variable de nom c.
+- Crea un nou cub arrodonit i centrat, de costats x -> 3, y -> 3 i z -> 7. Tot seguit trasllada'l a les coordenades [-3, 0, 3]. Emmagatzema'l a una variable de nom d.
+- Finalment, retorna la unió de les variables z, a, b, c i d.
+
+codi:
+
+function main(){
+  x=cube ( { size: [10, 3, 10], round: true, center: [true, true, true] } );
+  y=translate([0, 0, 7], cube ( { size: [4, 4, 4], round: true, center: true } ));
+  z=translate( [0, 0, 11.5], union(x, y));
+  a=translate([6, 0, 12.5], cube ( { size: [2, 2, 7], round: true, center: true } ));
+  b=translate([-6, 0, 12.5], cube ( { size: [2, 2, 7], round: true, center: true } ));
+  c=translate([3, 0, 3], cube ( { size: [3, 3, 7], round: true, center: true } ));
+  d=translate([-3, 0, 3], cube ( { size: [3, 3, 7], round: true, center: true } ));
+  return union(z, a, b, c, d);}
