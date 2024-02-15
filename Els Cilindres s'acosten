@@ -1,0 +1,11 @@
+Ajudes:
+- Usa el sistema clàssic per construir la figura.
+- Crea un cilindre amb radi de base 10, amb radi de sostre 5 i altura 20. El cilindre no ha d'estar centrat.
+- Finalment retorna aquest cilindre.
+
+codi:
+
+function main(){
+a=cylinder ( {r1: 10, r2: 5, h: 20} );
+return a;
+}
