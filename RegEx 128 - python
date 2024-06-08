@@ -1,0 +1,14 @@
+dissenya una funcio de nom itMantches que, donades dues cadenes correspondents a un patro i un text, retorni cert si el text conte el patro cercat.
+ej: itMatches(¨codelearn¨, ¨Learning regex¨)
+False
+itMatches(¨codelearn¨, ¨Learning codelearn regex¨)
+True
+code: 
+import re
+
+def itMatches(pattern, text):
+    match = re.search(pattern, text)
+    return match is not None
+
+print(itMatches("codelearn", "Learning regex"))           # False
+print(itMatches("codelearn", "Learning codelearn regex")) # True
