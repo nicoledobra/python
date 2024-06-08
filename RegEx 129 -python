@@ -1,0 +1,20 @@
+dissenya una funcio de nom itMantches que, donades dues cadenes correspondents a un patro i un text, retorni la posicio on comença la coincidencia i -1 si no hi ha coincidencia .
+ej: itMatches(¨codelearn¨, ¨Learning regex¨)
+-1
+itMatches(¨codelearn¨, ¨Learning codelearn regex¨)
+9
+
+code:
+
+import re
+
+def itMatches(pattern, text):
+    match = re.search(pattern, text)
+    if match:
+        return match.start()
+    else:
+        return -1
+
+# Exemples d'ús
+print(itMatches("codelearn", "Learning regex"))           # -1
+print(itMatches("codelearn", "Learning codelearn regex")) # 9
