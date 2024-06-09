@@ -1,0 +1,20 @@
+dissenya una funcio de nom matchingPosicion que, donades dues cadenes correspondents a un patro i un text, retorni la posicio inicial i final on comença la coincidencia i (-1, 1) si no hi ha coincidencia .
+ej: itMatches(¨codelearn¨, ¨Learning regex¨)
+(-1, -1)
+itMatches(¨codelearn¨, ¨Learning codelearn regex¨)
+(9, 18)
+
+code:
+
+import re
+
+def matchingPosicion(pattern, text):
+    match = re.search(pattern, text)
+    if match:
+        return (match.start(), match.end())
+    else:
+        return (-1, -1)
+
+# Exemples d'ús
+print(matchingPosicion("codelearn", "Learning regex"))           # (-1, -1)
+print(matchingPosicion("codelearn", "Learning codelearn regex")) # (9, 18)
