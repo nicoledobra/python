@@ -1,0 +1,24 @@
+ENUNCIAT:
+Dissenya una funció de nom changeMatching que, donades tres cadenes corresponents a un potró, un patró de reemplaç i un text,
+retorni una llista amb el resultat de substituir totes les aparicions del patró pel patró de reemplaç de el text donat.
+
+CODE:
+import re
+
+def changeMatching(pattern, replacement, text):
+    # Substituir totes les aparicions del patró pel patró de reemplaç
+    result_text = re.sub(pattern, replacement, text)
+    # Dividir el text resultant en paraules
+    result_list = result_text.split()
+    return result_list
+
+# Exemples d'ús
+print(changeMatching("evil", "good", "evil will always win"))  # ['good', 'will', 'always', 'win']
+print(changeMatching("evils", "evil", "evil will always win"))  # ['evil', 'will', 'always', 'win']
+
+
+EXEMPLES:
+>>> changeMatching("evil", "good", "evil will always win")
+['good', 'will', 'always', 'win']
+>>> changeMatching("evils", "evil", "evil will always win")
+['evil', 'will', 'always', 'win']
