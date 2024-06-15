@@ -1,0 +1,31 @@
+ENUNCIAT:
+Dissenya una funció de nom allMatchings que, donada una llista de patrons i un text, retorni una llista amb totes les coincidències dels patrons en el text.
+PISTA: Potser et pot ser útil pensar en convertir els elements de la llista en una única cadena d'alternatives.
+EXEMPLES:
+>>> allMatchings(["happy", "because", "I"], "I felt happy because I saw the others were happy and because I knew I should feel happy, but I wasn't really happy.")
+['I', 'happy', 'because', 'I', 'I', 'happy', 'I', 'happy']
+>>> allMatchings(["happy"], "I felt happy because I saw the others were happy and because I knew I should feel happy, but I wasn't really happy.")
+['happy', 'happy', 'happy', 'happy']
+>>> allMatchings([], "I felt happy because I saw the others were happy and because I knew I should feel happy, but I wasn't really happy.")
+[]
+CODE:
+import re
+
+def allMatchings(patterns, text):
+    if not patterns:
+        return []
+    # Crear una expressió regular combinant tots els patrons
+    combined_pattern = '|'.join(map(re.escape, patterns))
+    # Buscar totes les coincidències del patró combinat en el text
+    matches = re.findall(combined_pattern, text)
+    return matches
+
+# Exemples d'ús
+print(allMatchings(["happy", "because", "I"], "I felt happy because I saw the others were happy and because I knew I should feel happy, but I wasn't really happy."))
+# ['I', 'happy', 'because', 'I', 'I', 'happy', 'I', 'happy']
+
+print(allMatchings(["happy"], "I felt happy because I saw the others were happy and because I knew I should feel happy, but I wasn't really happy."))
+# ['happy', 'happy', 'happy', 'happy']
+
+print(allMatchings([], "I felt happy because I saw the others were happy and because I knew I should feel happy, but I wasn't really happy."))
+# []
