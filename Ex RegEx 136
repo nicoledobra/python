@@ -1,0 +1,22 @@
+Dissenya una funció de nom multiLetterMatchings2 que, donat un text, mostri per pantalla una 
+llista amb les aparicions d'aquelles lletres de l'abecedari (minúsules primer i majúscules després) 
+que apareguin al text 2 vegades.
+
+code:
+
+import re
+from collections import defaultdict
+
+def multiLetterMatchings2(text):
+    pattern = re.compile(r'([a-zA-Z])\1')
+    matches = pattern.findall(text)
+    letter_groups = defaultdict(list)
+    
+    for match in matches:
+        letter_groups[match].append(match * 2)
+    sorted_letters = sorted(letter_groups.keys(), key=lambda c: (c.isupper(), c))
+    
+    for letter in sorted_letters:
+        print("Letter {0} : {1}".format(letter, letter_groups[letter]))
+        
+multiLetterMatchings2("I felt happy because I saw the others were happy and because I knew I should feel happy, but I wasn't really happy.")   
