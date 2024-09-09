@@ -1,0 +1,14 @@
+ENUNCIAT:
+Calcula el perímetre d'un triangle que té dos costats un de 9 cm i un de 15 cm. Calcula també la seva àrea. Quan tinguis els càlculs fets, guarda el
+perímetre en una variable de nom perimeter i l'àrea en una variable de nom area.
+PISTA 1: l'àrea del triangle es calcula amb la fórmula següent: base per altura dividit entre 2.
+PISTA 2: altura del triangle és de 6 cm i la base és el costat de 15 cm.
+
+CODE:
+import math
+perimeter = 9 + 15 + math.sqrt(9 ** 2 + (15/2) ** 2)
+area = 6 * 15 / 2
+
+EXAMPLES:
+33
+45.0
